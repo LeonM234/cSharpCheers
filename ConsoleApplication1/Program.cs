@@ -24,7 +24,7 @@ namespace cheers
                 name = name.ToLower();
                 if (name[i].ToString() == "a" || name[i].ToString() == "e" || name[i].ToString() == "i" ||
                     name[i].ToString() == "o" || name[i].ToString() == "u")
-                    System.Console.WriteLine("Give me a..." + naame[i]);
+                    System.Console.WriteLine("Give me a..." + name[i]);
             }
             System.Console.WriteLine(name.ToUpper() + " is GRAND!");
             System.Console.WriteLine("Press any key to exit");
